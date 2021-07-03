@@ -69,11 +69,11 @@ cover: false #true # requires a cover.png file within the images folder
 
 download:
   - format: PDF
-    link: textbook.pdf
+    link: williamson-static.pdf
   - format: EPUB
-    link: textbook.epub
+    link: williamson-static.epub
   - format: DOCX
-    link: textbook.docx
+    link: nope.docx
   - format: LATEX
     link: textbook.tex
   - format: GITHUB
