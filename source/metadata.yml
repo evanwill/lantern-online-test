@@ -1,37 +1,37 @@
 # textbook information
 
-title: Title
-subtitle: Subtitle
+title: Using Static Web Technologies and Git-based Workflows to Redesign and Maintain a Library Website (Quickly) with Non-Technical Staff
+# subtitle: Subtitle
 
 author:
-  - name: First Author
-    affiliation: College
-  - name: Second Author
-    affiliation: University
+  - name: Evan Peter Williamson 
+    affiliation: University of Idaho Library
+  - name: Olivia M. Wikle
+    affiliation: University of Idaho Library
 
-contributor:
-  - Research Assistant
-  - Research Assistant
+#contributor:
+#  - Research Assistant
+#  - Research Assistant
 
 publication-year: 2021
-doi: 10.1000/xyz123
-isbn-p: something
-isbn-e: something
-website: seomthing
+doi: 10.1080/10691316.2021.1887036 
+#isbn-p: something
+#isbn-e: something
+#website: seomthing
 
 keywords:
-  - keyword
-  - keyword
-  - keyword
+  - Web development
+  - Git
+  - minimal computing
+  - library web design
 
 subjects: 
-  - Subject
-  - Subject
-  - Subject
+  - librarian workflow design
+  - responsive design
 
 description: |
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
+  In 2018, a university-wide brand update prompted the University of Idaho Library to re-examine their website development practices and move towards a static web approach that leverages librarian skillsets and provides the library greater control over its systems and data. This case study describes the methodological reasons behind the decision to use the static site generator Jekyll over a Content Management System (CMS) and the practical steps taken to create a sustainable and agile development model. The article details the ways this static web approach (nicknamed “Lib-STATIC”) facilitates cross-departmental communication, collaboration, and innovative feature development for library staff members of varying technical abilities.
+  
 # this sets the language attribute for html and epub outpus
 # see https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang for more info
 lang: en-us 
@@ -47,25 +47,25 @@ copyright:
   license: Attribution 4.0 International (CC BY 4.0) 
   license-uri: https://creativecommons.org/licenses/by/4.0/
   attribution: |
-    [Lastname, Firstname. Title of Book. Place of publication: Publisher, Year of publication.]
-  exceptions:    
-    - Chapter written under a different license
-    - Image used with permission of the creator
+    Evan Peter Williamson, Olivia M. Wikle, Devin Becker, Marco Seiferle-Valencia, Jylisa Doney & Jessica Martinez (2021) Using static web technologies and git-based workflows to re-design and maintain a library website (quickly) with non-technical staff, College & Undergraduate Libraries, DOI: 10.1080/10691316.2021.1887036
+#  exceptions:    
+#    - Chapter written under a different license
+#    - Image used with permission of the creator
 
 publisher:
-  name: Publishing Organization
-  location: City, State
-  website: https://example.com
-  disclaimer: |
-    Use this space to add any legal disclaimers about the book.
+  name: University of Idaho Library
+  location: Moscow, ID
+  website: https://evanwill.github.io/lantern-online-test
+#  disclaimer: |
+#    Use this space to add any legal disclaimers about the book.
 
-editor:
-  book: Editor Name # name of book editor
-  series: Editor Name # name of series editor
+#editor:
+#  book: Editor Name # name of book editor
+#  series: Editor Name # name of series editor
 
 # publication settings
 
-cover: true # requires a cover.png file within the images folder
+cover: false #true # requires a cover.png file within the images folder
 
 download:
   - format: PDF
@@ -77,7 +77,7 @@ download:
   - format: LATEX
     link: textbook.tex
   - format: GITHUB
-    link: https://github.com/nulib-oer/lantern
+    link: https://github.com/evanwill/lantern-online-test/
 
 toc-title: "Contents" # name for the table of contents
 reference-section-title: "References" # name for the references or bibliography section
