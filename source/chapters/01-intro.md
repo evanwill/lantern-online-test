@@ -2,7 +2,11 @@
 
 During the spring semester of 2018, the University of Idaho redesigned their website and updated their brand, revising the official logos and color schemes (University of Idaho 2018). Like many libraries, the University of Idaho Library independently hosts and maintains its own website, so this university-wide rebranding meant the library website would need a "refresh" as well, to avoid being out of sync with the new look and feel. One might think this would be as easy as swapping out the web banner logo and updating the accent colors (Figures 1 and 2).
 
+![university of idaho logo with metallic gold lettering](DtNFdB.jpg "Figure 1")
+
 Figure 1. The old University of Idaho Library Logo, from <https://web.archive.org/web/20180224063150/https://www.lib.uidaho.edu/>
+
+![university of idaho logo with large I](JGJxZF.jpg "Figure 2")
 
 Figure 2. The new University of Idaho Library Logo, 1/30/2020.
 
