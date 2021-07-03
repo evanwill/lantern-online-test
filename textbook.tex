@@ -73,29 +73,6 @@ and Maintain a Library Website (Quickly) with Non-Technical Staff}
     \end{center}
 }
 
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newlength{\cslentryspacingunit} % times entry-spacing
-\setlength{\cslentryspacingunit}{\parskip}
-\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
- {% don't indent paragraphs
-  \setlength{\parindent}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-  \let\oldpar\par
-  \def\par{\hangindent=\cslhangindent\oldpar}
-  \fi
-  % set entry spacing
-  \setlength{\parskip}{#2\cslentryspacingunit}
- }%
- {}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 
 % Content Starts Here
@@ -274,163 +251,6 @@ participation empowers librarians and staff to learn and work with basic web
 development languages and concepts, in turn producing a more robust and
 uniquely customizable library website.
 
-\hypertarget{introduction-to-vegetable-lasagna}{%
-\chapter{Introduction to Vegetable
-Lasagna}\label{introduction-to-vegetable-lasagna}}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{First Author}, \emph{Affiliation}
-\item
-  \textbf{Second Author}, \emph{Affiliation}
-\end{itemize}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\textbf{Learning Objectives}
-
-\begin{itemize}
-\tightlist
-\item
-  Objective
-\item
-  Objective
-\item
-  Objective
-\end{itemize}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
-
-Soup cranberry spritzer edamame hummus figs tomato and basil Bolivian rainbow
-pepper chili pepper vine tomatoes ultimate avocado dressing drizzle summer
-fruit salad. Peanut butter crunch coconut dill plums morning smoothie bowl
-strawberries spiced peppermint blast crunchy seaweed mangos green tea. Eating
-together dark chocolate pine nuts red curry tofu noodles lychee chocolate
-cookie red amazon pepper orange mediterranean luxury bowl hearts of palm
-Italian linguine puttanesca lemon tahini dressing picnic salad walnut mushroom
-tart almonds pumpkin.
-
-\hypertarget{tbl:variables}{}
-\begin{longtable}[]{@{}lll@{}}
-\caption{\label{tbl:variables}This is an example table.}\tabularnewline
-\toprule
-Variable & Abbreviation & Definition \\
-\midrule
-\endfirsthead
-\toprule
-Variable & Abbreviation & Definition \\
-\midrule
-\endhead
-\(n\) & AAA & thing \\
-\(x\) & BBB & thing \\
-\(1\) & CCC & thing \\
-\bottomrule
-\end{longtable}
-
-\hypertarget{math}{%
-\section{Math}\label{math}}
-
-\emph{Courtesy of \href{https://www.mathjax.org/\#samples}{MathJax}}
-
-The Quadratic Formula:
-
-\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-
-Cauchy's Integral Formula:
-
-\[f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\]
-
-Standard Deviation:
-
-\[\sigma = \sqrt{ \frac{1}{N} \sum_{i=1}^N (x_i -\mu)^2}\]
-
-\hypertarget{bibiliographic-references}{%
-\subsection{Bibiliographic References}\label{bibiliographic-references}}
-
-Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
-tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
-Dandelion cucumber earthnut pea peanut soko zucchini {[}@lantern{]}.
-
-Soup cranberry spritzer edamame hummus figs tomato and basil Bolivian rainbow
-pepper chili pepper vine tomatoes ultimate avocado dressing drizzle summer
-fruit salad. Peanut butter crunch coconut dill plums morning smoothie bowl
-strawberries spiced peppermint blast crunchy seaweed mangos green tea. Eating
-together dark chocolate pine nuts red curry tofu noodles lychee chocolate
-cookie red amazon pepper orange mediterranean luxury bowl hearts of palm
-Italian linguine puttanesca lemon tahini dressing picnic salad walnut mushroom
-tart almonds pumpkin.
-
-\hypertarget{figure-images}{%
-\section{Figure Images}\label{figure-images}}
-
-This is the first subsection. Please, admire the gloriousnes of this graph:
-
-\begin{figure}
-\hypertarget{fig:graph}{%
-\centering
-\includegraphics{graph.png}
-\caption{A cool graph}\label{fig:graph}
-}
-\end{figure}
-
-\hypertarget{tables}{%
-\section{Tables}\label{tables}}
-
-Tables need to be finalized \emph{before} they are formatted in Markdown. It
-is recommended to use a
-\href{https://www.tablesgenerator.com/markdown_tables}{Markdown table
-generator}, rather than formatting tables in Markdown by hand. Some Markdown
-table generators will allow you to
-\href{https://jakebathman.github.io/Markdown-Table-Generator/}{import tables
-created in Excel or CSV formats}.
-
-\begin{longtable}[]{@{}ll@{}}
-\caption{This is an example table.}\tabularnewline
-\toprule
-Index & Name \\
-\midrule
-\endfirsthead
-\toprule
-Index & Name \\
-\midrule
-\endhead
-0 & AAA \\
-1 & BBB \\
-2 & CCC \\
-\bottomrule
-\end{longtable}
-
-\hypertarget{more-elements}{%
-\section{More Elements}\label{more-elements}}
-
-\hypertarget{math-1}{%
-\subsection{Math}\label{math-1}}
-
-Formula example: \(\mu = \sum_{i=0}^{N} \frac{x_i}{N}\)
-
-Now, full size (with an equation label):
-
-\begin{equation}\protect\hypertarget{eq:equation}{}{\mu = \sum_{i=0}^{N} \frac{x_i}{N}}\label{eq:equation}\end{equation}
-
-\hypertarget{code}{%
-\subsection{Code}\label{code}}
-
-And a code sample:
-
-\begin{verbatim}
-def hello_world
-  puts "hello world!"
-end
-
-hello_world
-\end{verbatim}
-
-Check these unicode characters: ǽß¢ð€đŋμ
-
 \hypertarget{example-chapter}{%
 \chapter{Example Chapter}\label{example-chapter}}
 
@@ -454,8 +274,8 @@ Check these unicode characters: ǽß¢ð€đŋμ
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{introduction-1}{%
-\section{Introduction}\label{introduction-1}}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
 Soup cranberry spritzer edamame hummus figs tomato and basil Bolivian rainbow
 pepper chili pepper vine tomatoes ultimate avocado dressing drizzle summer
@@ -1250,17 +1070,6 @@ Yeh, Shea-Tinn, Fernando Reyes, Jeff Rynhart, and Philip Bain. 2016.
 ``Deploying Islandora as a Digital Repository Platform: A Multifaceted
 Experience at the University of Denver Libraries.'' \emph{D-Lib Magazine} 22
 (7/8). \url{https://doi.org/10.1045/july2016-yeh} .
-
-\hypertarget{bibliography}{%
-\chapter*{References}\label{bibliography}}
-\addcontentsline{toc}{chapter}{References}
-
-\hypertarget{refs}{}
-\begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-lantern}{}}%
-Diaz, Chris. 2021. {``Lantern.''} Northwestern University Libraries.
-
-\end{CSLReferences}
 
 \backmatter
 \end{document}
