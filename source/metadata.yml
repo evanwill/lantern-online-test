@@ -73,9 +73,9 @@ download:
   - format: EPUB
     link: williamson-static.epub
   - format: DOCX
-    link: nope.docx
+    link: williamson-static.docx
   - format: LATEX
-    link: textbook.tex
+    link: williamson-static.tex
   - format: GITHUB
     link: https://github.com/evanwill/lantern-online-test/
 
