@@ -1,5 +1,5 @@
 # textbook content settings
-OUTPUT_FILENAME = textbook
+OUTPUT_FILENAME = williamson-static
 OUTPUT_DIRECTORY = public
 # looks for :Zone.Identifier files added by https://github.com/microsoft/WSL/issues/4609
 CHECK = $(shell find . -name '*:Zone.Identifier' -delete)
